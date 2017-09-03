@@ -1,0 +1,372 @@
+﻿@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    font-size: 12px;
+    font-family: Arial,"微软雅黑";
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+}
+
+    a:active {
+        star: expression(this.onFocus=this.blur());
+        color: #333;
+    }
+
+img {
+    border: 0;
+}
+
+a:link {
+    text-decoration: none;
+    outline: 0;
+    color: #333;
+}
+
+a:visited {
+    text-decoration: none;
+    outline: 0;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #26c7fc;
+    outline: 0;
+}
+
+dd, dl, dt, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear_f {
+    clear: both;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.h10 {
+    height: 10px;
+    overflow: hidden;
+    clear: both;
+}
+
+.h20 {
+    height: 20px;
+    overflow: hidden;
+    clear: both;
+}
+
+.h30 {
+    height: 30px;
+    overflow: hidden;
+    clear: both;
+}
+
+input, textarea {
+    background: 0 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial,"微软雅黑";
+    color: #888;
+    outline: 0;
+    border: 0;
+}
+
+em {
+    font-style: normal;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    -webkit-appearance: none;
+}
+
+.blue {
+    color: #26c7fc;
+}
+
+.orange {
+    color: #f65314;
+}
+
+.imgDiv img {
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.indexPart2 .img, .indexPart2 .list, .indexPart2 .name, .indexPart2 .name2, .indexPart3 .box .bg, .indexPart5 .btn a, .indexPart5 .name, .indexPart5 img, .indexPart5 p, .indexPart7 .btnDiv span, .indexPart7 li, .pageTab li a, .pageTitle .tag a, .programme .bg {
+    transition: All .5s ease;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+}
+
+.pageTab {
+    text-align: center;
+    height: 85px;
+    width: 540px;
+    margin: 0 auto;
+}
+
+    .pageTab li {
+        float: left;
+        width: 25%;
+    }
+
+        .pageTab li div {
+            height: 37px;
+            line-height: 37px;
+            background: #f3f3f3;
+            font-size: 14px;
+            margin: 0 10px;
+            -moz-border-radius: 15px;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+        }
+
+        .pageTab li a {
+            display: block;
+            height: 37px;
+        }
+
+    .pageTab .liNow div {
+        background: #c9dfb0;
+    }
+
+    .pageTab .on div {
+        background: #daedc5;
+    }
+
+.tabContent {
+    display: none;
+}
+
+.tab li {
+    cursor: pointer;
+}
+
+.indexPart5 .imgDiv, .indexPart5 .imgDiv img, .indexPart6 .imgList, .indexPart6 .imgList img, .nav .aNow, .nav a:hover {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.about_04 a, .host li, .indexPart6 .list li, .indexPart7 li, .knowledgeShow .btn a, .programmeMsg, .standard .name {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.newFootNav a {
+    color: #FFF;
+}
+
+.newFoot .link a {
+    padding-right: 2em;
+}
+
+.newFoot a {
+    color: #adadad;
+}
+
+    .newFoot a:hover {
+        color: #fff;
+    }
+
+.pageTitle {
+    padding: 20px 0;
+    min-height: 30px;
+    position: relative;
+}
+
+    .pageTitle h2 {
+        font-size: 31px;
+        font-weight: 700;
+        color: #717171;
+        line-height: 1.2em;
+        border-left: #f65314 solid 2px;
+        padding: 15px 0 15px 28px;
+        text-transform: uppercase;
+        min-height: 1.2em;
+        position: relative;
+    }
+
+    .pageTitle .more {
+        display: block;
+        background: url(../newImages/nimg40.png) center no-repeat;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -20px;
+    }
+
+    .pageTitle .img1 {
+        position: absolute;
+        right: 55px;
+        top: 50%;
+        margin-top: -14px;
+    }
+
+    .pageTitle .msg {
+        color: #aeaeae;
+        padding-top: 16px;
+        width: 45%;
+    }
+
+    .pageTitle .tag {
+        position: absolute;
+        right: 80px;
+        top: 60px;
+        text-align: right;
+        width: 635px;
+    }
+
+        .pageTitle .tag a {
+            display: inline-block;
+            color: #4e4e4e;
+            margin: 0 0 9px 15px;
+            height: 29px;
+            line-height: 29px;
+            padding: 0 10px;
+            background: #f6f6f6;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+            .pageTitle .tag a:hover {
+                background: #26c7fc;
+                color: #FFF;
+            }
+
+    .pageTitle .a1 {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 8px;
+        background: #f65314;
+        color: #FFF;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+#Layer1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    display: none;
+}
+
+.pageTag {
+    padding: 0 5px 0 15px;
+}
+
+    .pageTag li {
+        float: left;
+        padding: 0 10px 10px 0;
+    }
+
+    .pageTag a {
+        display: block;
+        float: left;
+        color: #717171;
+        background: #f2f2f2;
+        height: 26px;
+        line-height: 26px;
+        padding: 0 10px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+.pageMore {
+    padding: 5px 15px;
+}
+
+    .pageMore a {
+        display: block;
+        text-align: center;
+        height: 35px;
+        line-height: 35px;
+        background: #818182;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+.header {
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 98px;
+    background: url(../newImages/head.png) top repeat-x;
+}
+
+    .header .logo {
+        padding-top: 13px;
+    }
+
+    .header .mainnav {
+        margin-right: 0;
+        padding: 40px 0 0 0;
+    }
+
+.h121 {
+    height: 0;
+}
+
+.newTop {
+    display: none;
+}

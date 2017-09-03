@@ -1,0 +1,1 @@
+function prompt_fun(b){$(b).after("<div id='Layer1'></div>");$("#Layer1").fadeTo("fast",0);$(b).css("left","0px");$(b).show();$("#Layer1").click(function(){close_prompt_fun(b)})}function close_prompt_fun(b){$(b).hide();$("#Layer1").fadeOut("slow",function(){$("#Layer1").remove()})};
